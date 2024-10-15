@@ -1,7 +1,9 @@
 import pandas as pd
 
 class Proc:
-    def __init__(self, caminho_arquivo, inicial):
+    def __init__(self):
+        caminho_arquivo = 'fin.xlsx'
+        inicial = 2256.61
         self.caminho_arquivo = caminho_arquivo
         self.inicial = inicial
         self.maior = 0
